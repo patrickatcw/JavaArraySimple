@@ -47,6 +47,14 @@ public class Main {
         char []myCharArray = {'a', 'b', 'c'};
         System.out.println(myCharArray[1]);
 
+        char []myCharArray1 = new char[3];
+        myCharArray1[0] = 'e';
+        myCharArray1[1] = 'f';
+        myCharArray1[2] = 'g';
+        System.out.println(myCharArray1[1]);
+
+
+
     }
 
 
