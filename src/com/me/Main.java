@@ -11,9 +11,9 @@ public class Main {
         myIntArray[0] = 10;         //defining values of individual ints
         myIntArray[1] = 20;
         myIntArray[2] = 30;
-        System.out.print(myIntArray[0]);   //notice no "ln'
         System.out.println(myIntArray[0]);
         System.out.println(myIntArray[1]);
+        System.out.print(myIntArray[2]);        //notice no "ln", but no change b/c it is at end
 
     }
 
