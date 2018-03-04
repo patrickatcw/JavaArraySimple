@@ -11,7 +11,7 @@ public class Main {
         myIntArray[0] = 100;         //defining values of individual ints
         myIntArray[1] = 200;
         myIntArray[2] = 300;
-        System.out.print(myIntArray[0] + ", ");
+        System.out.print(myIntArray[0] + ", "); //no "ln"
         System.out.print(myIntArray[1] + ", ");
         System.out.println(myIntArray[2]);
 
@@ -19,6 +19,13 @@ public class Main {
         System.out.println(myArray1[2]);    //print each value individually
         System.out.println(myArray1[1]);
         System.out.println(myArray1[0]);
+
+        //with double
+        double []myDoubleArray = new double[10];
+        myDoubleArray[3] = 30;
+        System.out.println(myDoubleArray[3]);
+        //print result; 30.0
+
 
     }
 
