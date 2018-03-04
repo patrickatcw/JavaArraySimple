@@ -16,7 +16,9 @@ public class Main {
         System.out.println(myIntArray[2]);
 
         int[] myArray1 = {500, 600, 700}; //values assigned in array definition
+        System.out.println(myArray1[2]);    //print each value individually
         System.out.println(myArray1[1]);
+        System.out.println(myArray1[0]);
 
     }
 
