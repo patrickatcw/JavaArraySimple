@@ -12,8 +12,8 @@ public class Main {
         myIntArray[1] = 20;
         myIntArray[2] = 30;
         System.out.println(myIntArray[0]);
-        System.out.println(myIntArray[1]);
-        System.out.print(myIntArray[2]);        //notice no "ln", but no change b/c it is at end
+        System.out.print(myIntArray[1]);    //notice no "ln", puts 1 and 2 on same line, second line
+        System.out.println(myIntArray[2]);
 
     }
 
