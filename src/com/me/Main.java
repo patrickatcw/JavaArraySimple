@@ -36,6 +36,14 @@ public class Main {
         myStringArray1[2] = "Three";
         System.out.println(myStringArray1[2]);
 
+        String []myStringArray2 = new String[3];
+        myStringArray2[0] = "One";
+        myStringArray2[1] = "Two";
+        myStringArray2[2] = "Three";
+        System.out.print(myStringArray2[0] + ", ");
+        System.out.print(myStringArray2[1] + ", ");
+        System.out.println(myStringArray2[2]);
+
     }
 
 
