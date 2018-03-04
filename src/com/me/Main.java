@@ -26,6 +26,10 @@ public class Main {
         System.out.println(myDoubleArray[3]);
         //print result; 30.0
 
+        //with String
+        String []myStringArray = {"One", "Two", "Three"};
+        System.out.println(myStringArray[0]);
+
 
     }
 
