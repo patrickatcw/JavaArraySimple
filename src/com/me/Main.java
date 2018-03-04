@@ -44,6 +44,9 @@ public class Main {
         System.out.print(myStringArray2[1] + ", ");
         System.out.println(myStringArray2[2]);
 
+        char []myCharArray = {'a', 'b', 'c'};
+        System.out.println(myCharArray[1]);
+
     }
 
 
