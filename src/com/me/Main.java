@@ -65,6 +65,26 @@ public class Main {
         char[]printCharArray = new char[]{'x', 'y', 'z'};
         System.out.println(Arrays.toString(printCharArray));
 
+        System.out.println("-------------------------");
+
+        double[] doubleArray = { 7.0, 9.0, 5.0, 1.0, 3.0 };
+        System.out.println(Arrays.toString(doubleArray));
+
+        System.out.println("-------------------------------------");
+
+        int[] intArray = { 7, 9, 5, 1, 3 };
+        System.out.println(Arrays.toString(intArray));
+
+        System.out.println("--------------------------------------");
+        //nested array
+        String[][] deepArray = new String[][] {{"John", "Mary"}, {"Alice", "Bob"}};
+        System.out.println(Arrays.toString(deepArray));
+        System.out.println(Arrays.deepToString(deepArray));
+        /*output;
+        [[Ljava.lang.String;@f5f2bb7, [Ljava.lang.String;@73035e27]
+        [[John, Mary], [Alice, Bob]]*/
+
+
     }
 
 
