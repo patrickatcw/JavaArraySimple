@@ -1,5 +1,7 @@
 package com.me;
 
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -53,7 +55,15 @@ public class Main {
         myCharArray1[2] = 'g';
         System.out.println(myCharArray1[1]);
 
+        System.out.println("----------------------");
 
+        String[] array = new String[]{"Cari", "Maybel", "Jill"};
+        System.out.println(Arrays.toString(array));
+
+        System.out.println("-----------------------------");
+
+        char[]printCharArray = new char[]{'x', 'y', 'z'};
+        System.out.println(Arrays.toString(printCharArray));
 
     }
 
